@@ -92,7 +92,12 @@ Create a firebase config in `index.js` and surround our application with the `Fi
 import { FirebaseAppProvider } from 'reactfire';
 
 const firebaseConfig = {
-  // Retrieved from the firebase console
+  apiKey: "AIzaSyDrpV4GSqcWF5HlEMqipfQTOIuIlqq7mZg",
+  authDomain: "fireship-28750.firebaseapp.com",
+  projectId: "fireship-28750",
+  storageBucket: "fireship-28750.appspot.com",
+  messagingSenderId: "338109264877",
+  appId: "1:338109264877:web:4a3712b0152f8e4d43ade4"
 };
 
 function App() {

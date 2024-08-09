@@ -45,13 +45,12 @@ Also watch the more basic [Firebase v9 overview](https://youtu.be/zd6ffqoK_EU) o
 ```js
 // Your projects firebase configuration
 const firebaseConfig = {
-  apiKey: "<apiKey>",
-  authDomain: "<authDomain>",
-  projectId: "<projectId>",
-  storageBucket: "storageBucket",
-  messagingSenderId: "<messagingSenderId>",
-  appId: "<appId>",
-  measurementId: "<measurementId>",
+apiKey: "AIzaSyDrpV4GSqcWF5HlEMqipfQTOIuIlqq7mZg",
+  authDomain: "fireship-28750.firebaseapp.com",
+  projectId: "fireship-28750",
+  storageBucket: "fireship-28750.appspot.com",
+  messagingSenderId: "338109264877",
+  appId: "1:338109264877:web:4a3712b0152f8e4d43ade4",
 };
 
 export default firebaseConfig;

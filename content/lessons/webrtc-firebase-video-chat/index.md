@@ -76,7 +76,12 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-    // your config
+  apiKey: "AIzaSyDrpV4GSqcWF5HlEMqipfQTOIuIlqq7mZg",
+  authDomain: "fireship-28750.firebaseapp.com",
+  projectId: "fireship-28750",
+  storageBucket: "fireship-28750.appspot.com",
+  messagingSenderId: "338109264877",
+  appId: "1:338109264877:web:4a3712b0152f8e4d43ade4"
 };
 
 if (!firebase.apps.length) {

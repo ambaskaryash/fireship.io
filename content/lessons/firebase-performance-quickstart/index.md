@@ -48,8 +48,12 @@ Grab your Firebase config from the console, then initialize AngularFire & Fireba
 {{< file "ngts" "app.module.ts" >}}
 ```typescript
 const firebaseConfig = {
-    // ...firebase config
-  appId: '1:xxxxxxxxxxxxxxxx'  // <-- make sure you have this field
+  apiKey: "AIzaSyDrpV4GSqcWF5HlEMqipfQTOIuIlqq7mZg",
+  authDomain: "fireship-28750.firebaseapp.com",
+  projectId: "fireship-28750",
+  storageBucket: "fireship-28750.appspot.com",
+  messagingSenderId: "338109264877",
+  appId: "1:338109264877:web:4a3712b0152f8e4d43ade4"  // <-- make sure you have this field
 };
 
 import { AngularFireModule } from '@angular/fire';
